@@ -26,7 +26,7 @@ string Weapon::GetAbilities()
 
 ostream& operator<<(ostream& out, Weapon w)
 {
-	cout << "The Weapon " << w.GetName() << ", it is " << w.GetDesc() << "\nIt does "
+	return cout << "The Weapon " << w.GetName() << ", it is " << w.GetDesc() << "\n\nIt does "
 		<< w.GetDmg() << " DPS.\n\n" << "With the following special abilities:\n\n"
 		<< w.GetAbilities() << endl;
 }

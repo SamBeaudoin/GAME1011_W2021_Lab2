@@ -10,7 +10,7 @@ private:
 	string Wname;
 	string description;
 	int damage = 0;
-	string abilities[2];
+	string abilities[3];
 
 public:
 	Weapon() {};

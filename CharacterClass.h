@@ -12,7 +12,7 @@ private:
 	string Modification;
 
 public:
-	CharacterClass(string name, int hp, Weapon& wep, string Aname, string Adesc, string Namemod);
+	CharacterClass(string name, int hp, Weapon wep, string Aname, string Adesc, string Namemod);
 
 	~CharacterClass() {};
 
